@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Flipper" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="Flip" prefix_auto="1" extension_auto="1" />
+				<Option object_output="C:\erikprogram\Flipper\Flipper - NEW\.objs" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libBox2D.a" />
+					<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\XInput32.lib" />
+					<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libwinmm.a" />
+					<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\OpenAL32.lib" />
+					<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libSOIL.a" />
+					<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libgdi32.a" />
+					<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libglu32.a" />
+					<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libopengl32.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="gdi32" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libBox2D.a" />
+		</Linker>
+		<Unit filename="MyContactListener.cpp" />
+		<Unit filename="MyContactListener.h" />
+		<Unit filename="base64.cpp" />
+		<Unit filename="base64.h" />
+		<Unit filename="decal.cpp" />
+		<Unit filename="decal.h" />
+		<Unit filename="display_7seg.cpp" />
+		<Unit filename="display_7seg.h" />
+		<Unit filename="files_in_text.cpp" />
+		<Unit filename="files_in_text.h" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.h" />
+		<Unit filename="gamepad.cpp" />
+		<Unit filename="gamepad.h" />
+		<Unit filename="imageloader.cpp" />
+		<Unit filename="imageloader.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main_menu.cpp" />
+		<Unit filename="main_menu.h" />
+		<Unit filename="resource.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="sound.cpp" />
+		<Unit filename="sound.h" />
+		<Unit filename="sound_list.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,133 @@
+# depslib dependency file v1.0
+1189864950 source:c:\erikprogram\flipper\main.c
+	<windows.h>
+	<gl/gl.h>
+
+1361647442 source:c:\erikprogram\flipper\main.cpp
+	<iostream>
+	<windows.h>
+	<gl/gl.h>
+	<fcntl.h>
+	<stdio.h>
+	"game.h"
+
+1361647125 c:\erikprogram\flipper\game.h
+	<gl/gl.h>
+	<Box2D/Box2D.h>
+	<time.h>
+	<iostream>
+
+1361665973 source:c:\erikprogram\flipper\game.cpp
+	"game.h"
+
+1367681768 source:c:\erikprogram\flipper\flipper - new\main.cpp
+	<iostream>
+	<windows.h>
+	<gl/gl.h>
+	<fcntl.h>
+	<stdio.h>
+	"game.h"
+	"resource.h"
+
+1384010958 c:\erikprogram\flipper\flipper - new\game.h
+	<SOIL/SOIL.h>
+	<gl/gl.h>
+	<Box2D/Box2D.h>
+	<time.h>
+	<iostream>
+	<vector>
+	"base64.h"
+	"files_in_text.h"
+	"sound.h"
+	"MyContactListener.h"
+	"gamepad.h"
+	"display_7seg.h"
+	"decal.h"
+
+1384012914 source:c:\erikprogram\flipper\flipper - new\game.cpp
+	"game.h"
+	<fstream>
+
+1364507562 c:\erikprogram\flipper\flipper - new\mycontactlistener.h
+	<iostream>
+	<Box2D/Box2D.h>
+
+1364507593 source:c:\erikprogram\flipper\flipper - new\mycontactlistener.cpp
+	"MyContactListener.h"
+
+1362942565 c:\erikprogram\flipper\flipper - new\gamepad.h
+	<windows.h>
+	<D3D/XInput.h>
+
+1362942605 source:c:\erikprogram\flipper\flipper - new\gamepad.cpp
+	"gamepad.h"
+
+1364657769 c:\erikprogram\flipper\flipper - new\display_7seg.h
+	<gl/gl.h>
+	<time.h>
+
+1364657769 source:c:\erikprogram\flipper\flipper - new\display_7seg.cpp
+	"display_7seg.h"
+
+1325245752 c:\erikprogram\flipper\flipper - new\imageloader.h
+
+1363804697 c:\erikprogram\flipper\flipper - new\main_menu.h
+	<iostream>
+	<gl/gl.h>
+	<Box2D/Box2D.h>
+	"decal.h"
+	"gamepad.h"
+
+1364657123 c:\erikprogram\flipper\flipper - new\decal.h
+	<gl\gl.h>
+
+1364657244 source:c:\erikprogram\flipper\flipper - new\decal.cpp
+	"decal.h"
+
+1325245752 source:c:\erikprogram\flipper\flipper - new\imageloader.cpp
+	<assert.h>
+	<fstream>
+	"imageloader.h"
+
+1363804717 source:c:\erikprogram\flipper\flipper - new\main_menu.cpp
+	"main_menu.h"
+
+1384010958 c:\erikprogram\flipper\flipper - new\sound.h
+	"sound_list.h"
+	<cstdlib>
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+	<windows.h>
+	<AL/al.h>
+	<AL/alc.h>
+
+1384007761 c:\erikprogram\flipper\flipper - new\sound_list.h
+
+1384010972 source:c:\erikprogram\flipper\flipper - new\sound.cpp
+	<stdio.h>
+	"sound.h"
+
+1364814140 c:\erikprogram\flipper\flipper - new\resource.h
+
+1364815449 source:c:\erikprogram\flipper\flipper - new\resource.rc
+	"resource.h"
+
+1366051696 source:c:\erikprogram\flipper\flipper - new\base64.cpp
+	"base64.h"
+	<iostream>
+
+1366051696 c:\erikprogram\flipper\flipper - new\base64.h
+	<string>
+
+1366314553 c:\erikprogram\flipper\flipper - new\files.h
+	<string>
+
+1384007761 c:\erikprogram\flipper\flipper - new\files_in_text.h
+	<string>
+	<iostream>
+
+1384012430 source:c:\erikprogram\flipper\flipper - new\files_in_text.cpp
+	"files_in_text.h"
+
